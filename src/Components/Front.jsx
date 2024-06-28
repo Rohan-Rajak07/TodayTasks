@@ -12,6 +12,10 @@ const Front = () => {
       title: "Welcome!!",
       desc: "Hey Welcome to the Today-Task .Here you can add you daily Task ....",
     },
+    {
+      title: "hey!!",
+      desc: "Hey Welcome to the Today-Task .Here you can add you daily Task .adf...",
+    },
   ];
   const[data,setData]=useState(indata);
   
@@ -59,7 +63,7 @@ const Front = () => {
   }
 
   return (
-    <div ref={ref} className="front w-full h-full fixed z-2 flex gap-10 p-5">
+    <div ref={ref} className="front w-full h-full fixed z-2 flex gap-5 p-2 ">
       {data.map((d) => (
         <Card
           key={d.title}
