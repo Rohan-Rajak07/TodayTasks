@@ -11,11 +11,7 @@ const Front = () => {
     {
       title: "Welcome!!",
       desc: "Hey Welcome to the Today-Task .Here you can add you daily Task ....",
-    },
-    {
-      title: "hey!!",
-      desc: "Hey Welcome to the Today-Task .Here you can add you daily Task .adf...",
-    },
+    }
   ];
   const[data,setData]=useState(indata);
   
